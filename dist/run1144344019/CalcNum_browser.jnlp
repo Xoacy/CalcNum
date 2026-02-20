@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CalcNum.jnlp">
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CalcNum_browser.jnlp">
   <information>
     <title>CalcNum</title>
     <vendor>jyjun</vendor>
@@ -8,9 +8,9 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="CalcNum.jar" size="201926" download="eager" />
+    <jar href="CalcNum.jar" size="202046" download="eager" />
   </resources>
-  <application-desc main-class="ClacNumTela"  name="CalcNum" >
-  </application-desc>
+  <applet-desc  width="800" height="600" main-class="ClacNumTela"  name="CalcNum" >
+  </applet-desc>
   <update check="always"/>
 </jnlp>

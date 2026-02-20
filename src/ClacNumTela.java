@@ -160,6 +160,12 @@ public class ClacNumTela extends javax.swing.JFrame {
         txtDivPorDois.setText(Integer.toString(resdiv));
         double  eleCub = Math.pow(numresdiv, 3.0);
         txtCubo.setText(Integer.toString((int) eleCub));
+        double raiz = Math.sqrt(numresdiv);
+        txtRiazQua.setText(Integer.toString((int)raiz));
+        double raizCub = Math.cbrt(numresdiv);
+        txtRaizCub.setText(Integer.toString((int)raizCub));
+        txtValorNum.setText(Integer.toString(numresdiv));
+       
     }//GEN-LAST:event_btnCalcActionPerformed
 
     /**
