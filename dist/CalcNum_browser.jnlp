@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CalcNum_browser.jnlp">
+  <information>
+    <title>CalcNum</title>
+    <vendor>jyjun</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CalcNum.jar" size="202002" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="ClacNumTela"  name="CalcNum" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
